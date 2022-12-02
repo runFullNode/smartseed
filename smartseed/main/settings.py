@@ -8,18 +8,18 @@ from smartseed.alpha2num.a2n_dicts import a2n_deutsch, a2n_123
 class Settings:
 
     # wordslist settings
-    wordslist_language = 'english'
+    wordslist_language = None
     default_language = 'english'
     wordslist = tuple()
 
     # seed settings
     default_p_len = 24
-    phrase_length = 24
+    phrase_length = None
     default_mirrors = False
-    enable_mirrors = False
+    enable_mirrors = None
 
     # alpha2num dictionary
-    confirm_a2n = False
+    confirm_a2n = True
     abc2n_dict = a2n_deutsch()
     num2n_dict = a2n_123()
     
