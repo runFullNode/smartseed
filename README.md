@@ -16,7 +16,7 @@ Since SmartSeed uses formulas to generate seed phrases, it is essential to use a
 
 To run the program, open a terminal and navigate to the directory containing SmartSeed. Enter the following command: 
 
-```python smartseed.py```
+```python main.py```
 
 ## License
 
